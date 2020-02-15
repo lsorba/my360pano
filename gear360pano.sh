@@ -17,6 +17,7 @@ OUTDIR="$DIR/$GALLERYDIR/data"
 OUTTMPNAME="out"
 PTOTMPL_SM_C200="$DIR/gear360sm-c200.pto"
 PTOTMPL_SM_R210="$DIR/gear360sm-r210.pto"
+PTOTMPL_MY360="$DIR/thomson-my360.pto"
 JPGQUALITY=97
 PTOJPGFILENAME="dummy.jpg"
 # Note, this file is inside GALLERYDIR
@@ -29,7 +30,7 @@ BLENDPROG="enblend"
 EXTRANONAOPTIONS="-g"
 EXTRAENBLENDOPTIONS="--gpu"
 # Debug, yes - print debug, empty - no debug
-DEBUG="no"
+# DEBUG="yes"
 
 # Debug, arguments:
 # 1. Text to print
@@ -300,6 +301,9 @@ do
         ;;
       SM-R210)
         PTOTMPL=$PTOTMPL_SM_R210
+        ;;
+      'MY 360')
+        PTOTMPL=$PTOTMPL_MY360
         ;;
       *)
         PTOTMPL=$PTOTMPL_SM_C200

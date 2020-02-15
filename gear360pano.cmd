@@ -18,6 +18,7 @@ set SCRIPTPATH=%~dp0
 set OUTTMPNAME=out
 set PTOTMPL_SM_C200="%SCRIPTPATH%gear360sm-c200.pto"
 set PTOTMPL_SM_R210="%SCRIPTPATH%gear360sm-r210.pto"
+set PTOTMPL_MY360="%SCRIPTPATH%thomson-my360.pto"
 set INNAME=
 set PTOTMPL=
 set OUTDIR=%SCRIPTPATH%html\data

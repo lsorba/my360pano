@@ -1,14 +1,16 @@
 # About
 
-Simple script to create equirectangular panoramic photos or videos from Samsung Gear 360. It supports
+Simple script to create equirectangular panoramic photos or videos from Thomson My 360 and Samsung Gear 360. It supports
 generation 1 (SM-C200) and 2 (2017 or SM-R210).
 
+![Thomson My 360](thomson-my360.jpg)
 ![Samsung Gear 360](gear360.jpg)
 
 # Latest Changes
 
 Latest Changes:
 
+- 2020-01-27: Added support of the Thomson My 360 camera.
 - 2018-06-14: fixed problem with EXIF data for generation 2 Gear360 that prevented Google
 from recognising stitched image as panorama.
 - 2018-06-04: added check for Hugin for video script.
